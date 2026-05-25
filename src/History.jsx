@@ -117,7 +117,7 @@ export default function History({ currentEmpId, googleSheetUrl, onBack }) {
       <header className="bg-slate-900 text-white shadow-md py-5 px-4 mb-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
           <div>
-            <h1 className="text-xl font-bold text-amber-400">📊 Pangkalan Histori Skor Khas Google Sheet</h1>
+            <h1 className="text-xl font-bold text-amber-400">📊 Histori Skor Tes SSE</h1>
             <p className="text-xs text-slate-400">Monitoring Pemetaan Matriks Kualifikasi dan Validasi Kelulusan Karyawan</p>
           </div>
           <button onClick={onBack} className="w-full sm:w-auto bg-slate-700 hover:bg-slate-600 text-xs font-bold px-4 py-2.5 rounded-xl border border-slate-600 transition-colors">
